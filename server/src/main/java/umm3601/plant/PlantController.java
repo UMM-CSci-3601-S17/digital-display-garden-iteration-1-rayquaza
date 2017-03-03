@@ -16,7 +16,7 @@ import static com.mongodb.client.model.Filters.eq;
  */
 public class PlantController {
 
-    MongoCollection<Document> plantCollection;
+    private MongoCollection<Document> plantCollection;
 
     public PlantController(String databaseName) {
         MongoClient mongoClient = new MongoClient();
