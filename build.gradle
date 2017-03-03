@@ -18,7 +18,7 @@ task seedUserData(type: Exec) {
 }
 task seedPlantData(type: Exec) {
      executable = "mongoimport"
-     args = ["-d", "test", "-c", "users", "--file", "plants.seed.json"]
+     args = ["-d", "test", "-c", "plants", "--file", "plants.seed.json"]
 }
 
 task seedMongoDB { }
