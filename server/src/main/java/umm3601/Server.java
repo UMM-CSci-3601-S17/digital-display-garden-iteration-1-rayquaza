@@ -1,6 +1,7 @@
 package umm3601;
 
 import umm3601.user.UserController;
+import umm3601.plant.PlantController;
 
 import java.io.IOException;
 
@@ -11,6 +12,7 @@ public class Server {
     public static void main(String[] args) throws IOException {
 
         UserController userController = new UserController();
+        PlantController plantController = new PlantController("test");
 
         options("/*", (request, response) -> {
 
@@ -53,6 +55,13 @@ public class Server {
         get("api/avgUserAgeByCompany", (req, res) -> {
             res.type("application/json");
             return userController.getAverageAgeByCompany();
+        });
+
+        // Get specific plant
+        get("api/plant/:id", (req, res) -> {
+            res.type("application/json");
+            String id = req.params("id");
+            return plantController.getPlant(id);
         });
 
         // Handle "404" file not found requests:
