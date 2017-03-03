@@ -25,15 +25,27 @@ public class PlantController {
     }
 
     public String getPlant(String id) {
-        FindIterable<Document> jsonPlant
-                = plantCollection
-                .find(eq("_id", new ObjectId(id)));
 
-        Iterator<Document> iterator = jsonPlant.iterator();
-// todo check to make sure iterator isn't empty
-        Document plant = iterator.next();
+        FindIterable<Document> jsonPlant;
+        String returnVal;
+        try {
 
-        return plant.toJson();
+            jsonPlant = plantCollection.find(eq("_id", new ObjectId(id)));
+
+            Iterator<Document> iterator = jsonPlant.iterator();
+
+            if (iterator.hasNext()) {
+                returnVal = iterator.next().toJson();
+            } else {
+                returnVal = "null";
+            }
+
+        } catch (IllegalArgumentException e) {
+            returnVal = "null";
+        }
+
+        return returnVal;
+
     }
 
 }
