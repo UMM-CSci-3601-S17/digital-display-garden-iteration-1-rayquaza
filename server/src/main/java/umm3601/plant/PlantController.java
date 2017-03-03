@@ -11,9 +11,7 @@ import java.util.Iterator;
 
 import static com.mongodb.client.model.Filters.eq;
 
-/**
- * Created by cookx876 on 3/3/17.
- */
+
 public class PlantController {
 
     private MongoCollection<Document> plantCollection;
