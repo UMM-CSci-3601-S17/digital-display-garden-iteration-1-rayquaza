@@ -11,6 +11,7 @@ import { UserListService } from './app/users/user-list.service';
 import { routing } from './app/app.routes';
 import { FormsModule } from '@angular/forms';
 import {PlantComponent} from './app/plants/plant.component';
+import {PlantService} from './app/plants/plant.service';
 
 import { PipeModule } from './pipe.module';
 
@@ -31,7 +32,7 @@ import { PipeModule } from './pipe.module';
         UserListComponent,
         PlantComponent
     ],
-    providers: [ UserListService ],
+    providers: [ UserListService, PlantService ],
     bootstrap: [ AppComponent ]
 })
 
