@@ -1,286 +1,286 @@
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f744" }, "commonName" : "Alternanthera", "cultivar" : "Experimental", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f745" }, "commonName" : "Angelonia", "cultivar" : "Angelface® Perfectly Pink", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f746" }, "commonName" : "Angelonia", "cultivar" : "Angelface® Super Blue", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f747" }, "commonName" : "Angelonia", "cultivar" : "Angelface® Super Pink", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f748" }, "commonName" : "Angelonia", "cultivar" : "Angelface® Super White", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f749" }, "commonName" : "Angelonia", "cultivar" : "Archangel™ Cherry Red", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74a" }, "commonName" : "Angelonia", "cultivar" : "Serenita™ Pink F1", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74b" }, "commonName" : "Arctotis", "cultivar" : "hybrid Orange", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74c" }, "commonName" : "Arctotis", "cultivar" : "hybrid Pink", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74d" }, "commonName" : "Arctotis", "cultivar" : "hybrid White", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74e" }, "commonName" : "Argyranthemum", "cultivar" : "Butterfly", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74f" }, "commonName" : "Argyranthemum", "cultivar" : "Grandessa™ Pink Halo", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f750" }, "commonName" : "Argyranthemum", "cultivar" : "Grandessa™ Red", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f751" }, "commonName" : "Argyranthemum", "cultivar" : "Grandessa™ White", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f752" }, "commonName" : "Argyranthemum", "cultivar" : "Grandessa™ Yellow", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f753" }, "commonName" : "Argyranthemum", "cultivar" : "White Butterfly™", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f754" }, "commonName" : "Artemisia", "cultivar" : "Quicksilver™", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f755" }, "commonName" : "Artemisia", "cultivar" : "stelleriana Quicksilver™", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f756" }, "commonName" : "Asclepias", "cultivar" : "Curassavica Monarch Promise", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f757" }, "commonName" : "Begonia", "cultivar" : "Megawatt Pink Bronze Leaf", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f758" }, "commonName" : "Begonia", "cultivar" : "Megawatt Red Green Leaf", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f759" }, "commonName" : "Begonia", "cultivar" : "Megawatt Rose Green Leaf", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75a" }, "commonName" : "Begonia", "cultivar" : "Topspin Pink", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75b" }, "commonName" : "Begonia", "cultivar" : "Topspin Rose", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75c" }, "commonName" : "Begonia", "cultivar" : "Topspin Scarlet", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75d" }, "commonName" : "Begonia", "cultivar" : "Topspin White", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75e" }, "commonName" : "Begonia", "cultivar" : "Whopper Experimental 1620-13T1", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75f" }, "commonName" : "Begonia", "cultivar" : "Whopper Experimental 1620-8T1", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f760" }, "commonName" : "Begonia", "cultivar" : "Whopper Experimental 1630-13T1", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f761" }, "commonName" : "Begonia", "cultivar" : "Whopper Experimental 1630-5T2", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f762" }, "commonName" : "Begonia", "cultivar" : "Whopper Red Bronze Foliage", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f763" }, "commonName" : "Begonia", "cultivar" : "Whopper Red Green Foliage", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f764" }, "commonName" : "Begonia", "cultivar" : "Whopper Rose Bronze Foliage", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f765" }, "commonName" : "Begonia semperflorens", "cultivar" : "Sprint Plus Orange", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f766" }, "commonName" : "Begonia semperflorens", "cultivar" : "Sprint Plus Red", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f767" }, "commonName" : "Begonia semperflorens", "cultivar" : "Sprint Plus Rose", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f768" }, "commonName" : "Begonia semperflorens", "cultivar" : "Sprint Plus White", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f769" }, "commonName" : "Begonia x hybrida", "cultivar" : "Funky™ Pink", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76a" }, "commonName" : "Canna", "cultivar" : "Cannova Mango", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76b" }, "commonName" : "Canna", "cultivar" : "Cannova Orange Shades", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76c" }, "commonName" : "Canna", "cultivar" : "South Pacific Scarlet F1", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76d" }, "commonName" : "Canna", "cultivar" : "Toucan™ Red", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76e" }, "commonName" : "Canna", "cultivar" : "Toucan™ Rose", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76f" }, "commonName" : "Canna", "cultivar" : "Toucan™ Scarlet", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f770" }, "commonName" : "Canna", "cultivar" : "Toucan™ Yellow", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f771" }, "commonName" : "Celosia", "cultivar" : "Fresh Look Gold", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f772" }, "commonName" : "Celosia", "cultivar" : "New Look", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f773" }, "commonName" : "Coleus", "cultivar" : "Dragon Black", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f774" }, "commonName" : "Coleus", "cultivar" : "FlameThrower™ Habanero", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f775" }, "commonName" : "Coleus", "cultivar" : "French Quarter", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f776" }, "commonName" : "Coleus", "cultivar" : "Inferno", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f777" }, "commonName" : "Coleus", "cultivar" : "Kong Red", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f778" }, "commonName" : "Coleus", "cultivar" : "Kong Rose", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f779" }, "commonName" : "Coleus", "cultivar" : "Mainstreet Abbey Road", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77a" }, "commonName" : "Coleus", "cultivar" : "Mainstreet Granville Street", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77b" }, "commonName" : "Coleus", "cultivar" : "Mainstreet Wall Street", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77c" }, "commonName" : "Coleus", "cultivar" : "Premium Sun Pineapple Surprise", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77d" }, "commonName" : "Coleus", "cultivar" : "Ruby Slipper", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77e" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Pink Reef", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77f" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Monkey Apricot", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f780" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Monkey Purple", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f781" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Monkey Rust", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f782" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Urchin Copper", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f783" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Urchin Neon", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f784" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Urchin Red", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f785" }, "commonName" : "Coleus", "cultivar" : "Wizard Golden", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f786" }, "commonName" : "Coleus", "cultivar" : "Wizard Scarlet", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f787" }, "commonName" : "Coreopsis", "cultivar" : "Sun Kiss", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f788" }, "commonName" : "Cosmos", "cultivar" : "Apollo Carmine", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f789" }, "commonName" : "Cosmos", "cultivar" : "Apollo Pink", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78a" }, "commonName" : "Cosmos", "cultivar" : "Apollo White", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78b" }, "commonName" : "Cosmos", "cultivar" : "Sonata Premium Carmine", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78c" }, "commonName" : "Cosmos", "cultivar" : "Sonata Premium Pink Blush", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78d" }, "commonName" : "Cyperus", "cultivar" : "Graceful Grasses® King Tut®", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78e" }, "commonName" : "Cyperus", "cultivar" : "Graceful Grasses® Prince Tut™", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78f" }, "commonName" : "Dahlia", "cultivar" : "Starsister Crimson Tipped White", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f790" }, "commonName" : "Dianthus", "cultivar" : "Amazon Neon Cherry", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f791" }, "commonName" : "Dianthus", "cultivar" : "Jolt™ Pink F1", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f792" }, "commonName" : "Dianthus", "cultivar" : "Jolt Cherry", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f793" }, "commonName" : "Dusty Miller", "cultivar" : "Silverdust", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f794" }, "commonName" : "Echinacea", "cultivar" : "Cheyenne Spirit", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f795" }, "commonName" : "Gaillardia", "cultivar" : "Mesa Red", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f796" }, "commonName" : "Gaura", "cultivar" : "Sparkle White", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f797" }, "commonName" : "Geranium", "cultivar" : "Exp. Maverick Violet Picotee", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f798" }, "commonName" : "Geranium", "cultivar" : "Fancy leaf Glitterati Ice Queen", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f799" }, "commonName" : "Geranium", "cultivar" : "Maverick Scarlet Picotee", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79a" }, "commonName" : "Geranium", "cultivar" : "Pinto Premium Orange Bicolor", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79b" }, "commonName" : "Geranium", "cultivar" : "Pinto Premium Rose Bicolor", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79c" }, "commonName" : "Geranium", "cultivar" : "Pinto Premium White to Rose", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79d" }, "commonName" : "Geranium", "cultivar" : "Pinto™ Premium White to Rose F1", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79e" }, "commonName" : "Geranium", "cultivar" : "Quantum Light Pink", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79f" }, "commonName" : "Geranium", "cultivar" : "Quantum Red", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a0" }, "commonName" : "Geranium", "cultivar" : "Quantum Salmon", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a1" }, "commonName" : "Geranium", "cultivar" : "Timeless™ Lavender (Imp)", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a2" }, "commonName" : "Gomphrena", "cultivar" : "Fireworks", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a3" }, "commonName" : "Graceful Grasses", "cultivar" : "Purple Fountain", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a4" }, "commonName" : "Hibiscus", "cultivar" : "Honeymoon Deep Red", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a5" }, "commonName" : "Impatiens", "cultivar" : "Infinity® Lavender (Imp)", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a6" }, "commonName" : "Impatiens", "cultivar" : "SunPatiens Spreading Clear White", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a7" }, "commonName" : "Impatiens", "cultivar" : "SunPatiens Spreading Pink Kiss", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a8" }, "commonName" : "Impatiens", "cultivar" : "SunPatiens Spreading Scarlet Red", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a9" }, "commonName" : "Impatiens", "cultivar" : "SunPatiens Spreading Tropical Orange", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7aa" }, "commonName" : "Impatiens", "cultivar" : "Super Elfin XP Blue Pearl", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ab" }, "commonName" : "Impatiens", "cultivar" : "Super Elfin XP Lilac", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ac" }, "commonName" : "Impatiens", "cultivar" : "Super Elfin XP White", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ad" }, "commonName" : "Impatiens Interspecific", "cultivar" : "Big Bounce™ Pink", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ae" }, "commonName" : "Impatiens Interspecific", "cultivar" : "Bounce™ Bright Coral", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7af" }, "commonName" : "Impatiens Interspecific", "cultivar" : "Bounce™ Violet 17", "gardenLocation" : 11 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b0" }, "commonName" : "Ipomoea", "cultivar" : "Sweet Caroline Sweetheart Jet Black", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b1" }, "commonName" : "Ipomoea", "cultivar" : "Sweet Caroline Sweetheart Lime", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b2" }, "commonName" : "Juncus", "cultivar" : "Graceful Grasses® Blue Mohawk®", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b3" }, "commonName" : "Lantana", "cultivar" : "Lucky™ Red", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b4" }, "commonName" : "Lavender", "cultivar" : "Lavance Deep Purple", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b5" }, "commonName" : "Lobularia", "cultivar" : "North Face White", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b6" }, "commonName" : "Marigold", "cultivar" : "Bonanza Harmony", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b7" }, "commonName" : "Marigold", "cultivar" : "Bonanza Yellow", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b8" }, "commonName" : "Marigold", "cultivar" : "Boy Yellow", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b9" }, "commonName" : "Marigold", "cultivar" : "Disco Red", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ba" }, "commonName" : "Marigold", "cultivar" : "Fireball", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7bb" }, "commonName" : "Marigold", "cultivar" : "Janie Gold", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7bc" }, "commonName" : "Marigold", "cultivar" : "Janie Yellow Bright", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7bd" }, "commonName" : "Marigold", "cultivar" : "Marvel Yellow", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7be" }, "commonName" : "Marigold", "cultivar" : "Strawberry Blonde", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7bf" }, "commonName" : "Marigold", "cultivar" : "Taishan Gold Improved", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c0" }, "commonName" : "Melampodium", "cultivar" : "Derby", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c1" }, "commonName" : "Mexican Sunflower (Tithonia)", "cultivar" : "Torch", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c2" }, "commonName" : "New Guinea Impatiens", "cultivar" : "Divine Lipstick", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c3" }, "commonName" : "New Guinea Impatiens", "cultivar" : "Divine Orchid", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c4" }, "commonName" : "New Guinea Impatiens", "cultivar" : "Florific™ Sweet Orange F1", "gardenLocation" : 10 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c5" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Cherry", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c6" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Coral Aurora", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c7" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Fire Red", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c8" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Hot Pink", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c9" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Neon", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ca" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Pink Frost 11-08", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7cb" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Pink Frost 28-05", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7cc" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Purple", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7cd" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Rose Aurora", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ce" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Rose Frost 11-15", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7cf" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Salmon", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d0" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding White Cloud", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d1" }, "commonName" : "Nicotiana", "cultivar" : "Perfume Red", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d2" }, "commonName" : "Oranmental Pepper", "cultivar" : "Sedona Sun", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d3" }, "commonName" : "Ornamental Grass", "cultivar" : "Juncus ColorGrass Javelin", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d4" }, "commonName" : "Ornamental Grass", "cultivar" : "Quaking", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d5" }, "commonName" : "Ornamental Grass Panicum", "cultivar" : "Panic Grass", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d6" }, "commonName" : "Ornamental Millet", "cultivar" : "Purple Baron", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d7" }, "commonName" : "Ornamental Millet", "cultivar" : "Purple Majesty", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d8" }, "commonName" : "Ornamental Millet", "cultivar" : "Red Jewel", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d9" }, "commonName" : "Ornamental Pepper", "cultivar" : "Black Hawk", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7da" }, "commonName" : "Ornamental pepper", "cultivar" : "Black Olive", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7db" }, "commonName" : "Ornamental pepper", "cultivar" : "NuMex Easter", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7dc" }, "commonName" : "Osteospermum", "cultivar" : "Akila® Daisy White F1", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7dd" }, "commonName" : "Osteospermum", "cultivar" : "Bright Lights™ Yellow", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7de" }, "commonName" : "Osteospermum", "cultivar" : "Sunny™ Fanny", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7df" }, "commonName" : "Osteospermum", "cultivar" : "Sunny™ Frida", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e0" }, "commonName" : "Pennisetum", "cultivar" : "Graceful Grasses® Fireworks", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e1" }, "commonName" : "Pennisetum", "cultivar" : "Graceful Grasses® Red Riding Hood", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e2" }, "commonName" : "Penstemon", "cultivar" : "Arabesque Red", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e3" }, "commonName" : "Penstemon", "cultivar" : "Arabesque™ Red F1", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e4" }, "commonName" : "Pentas", "cultivar" : "BeeBright Lipstick", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e5" }, "commonName" : "Pentas", "cultivar" : "BeeBright Pink", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e6" }, "commonName" : "Pentas", "cultivar" : "BeeBright Pink", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e7" }, "commonName" : "Pentas", "cultivar" : "BeeBright Red", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e8" }, "commonName" : "Pentas", "cultivar" : "BeeBright White", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e9" }, "commonName" : "Pentas", "cultivar" : "Exp. HoneyCluster Red", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ea" }, "commonName" : "Pentas", "cultivar" : "HoneyCluster Deep Rose", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7eb" }, "commonName" : "Pentas", "cultivar" : "HoneyCluster Pink", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ec" }, "commonName" : "Pentas", "cultivar" : "HoneyCluster White", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ed" }, "commonName" : "Pentas", "cultivar" : "Kaleidoscope Deep Red", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ee" }, "commonName" : "Perovskia", "cultivar" : "Blue Steel", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ef" }, "commonName" : "Petunia", "cultivar" : "African Sunset F1", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f0" }, "commonName" : "Petunia", "cultivar" : "Celebrity Pink Morn", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f1" }, "commonName" : "Petunia", "cultivar" : "ColorRush™ Blue", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f2" }, "commonName" : "Petunia", "cultivar" : "ColorRush™ Pink", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f3" }, "commonName" : "Petunia", "cultivar" : "ColorRush™ Pink Star", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f4" }, "commonName" : "Petunia", "cultivar" : "Damask® Blue", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f5" }, "commonName" : "Petunia", "cultivar" : "Damask® Pink", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f6" }, "commonName" : "Petunia", "cultivar" : "Damask® Red", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f7" }, "commonName" : "Petunia", "cultivar" : "Damask® White", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f8" }, "commonName" : "Petunia", "cultivar" : "Dreams Red Picotee", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f9" }, "commonName" : "Petunia", "cultivar" : "Exp. Damask Purple", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7fa" }, "commonName" : "Petunia", "cultivar" : "Exp. Picobella Pink", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7fb" }, "commonName" : "Petunia", "cultivar" : "Limbo GP Heather's Mixture", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7fc" }, "commonName" : "Petunia", "cultivar" : "Limbo GP Mid Blue (EXP)", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7fd" }, "commonName" : "Petunia", "cultivar" : "Limbo GP Plum", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7fe" }, "commonName" : "Petunia", "cultivar" : "Limbo GP Red", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ff" }, "commonName" : "Petunia", "cultivar" : "Limbo GP Sky Blue (EXP)", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f800" }, "commonName" : "Petunia", "cultivar" : "Mambo GP Orchid", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f801" }, "commonName" : "Petunia", "cultivar" : "Mambo GP Red", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f802" }, "commonName" : "Petunia", "cultivar" : "Mambo GP Red Morn (EXP)", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f803" }, "commonName" : "Petunia", "cultivar" : "Mambo GP Rose Morn", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f804" }, "commonName" : "Petunia", "cultivar" : "Mambo GP White", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f805" }, "commonName" : "Petunia", "cultivar" : "Mambo Mid Blue (EXP)", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f806" }, "commonName" : "Petunia", "cultivar" : "Night Sky", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f807" }, "commonName" : "Petunia", "cultivar" : "Radiance Grape", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f808" }, "commonName" : "Petunia", "cultivar" : "Radiance Lilac", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f809" }, "commonName" : "Petunia", "cultivar" : "Radiance White", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80a" }, "commonName" : "Petunia", "cultivar" : "Ramblin Nu Blue", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80b" }, "commonName" : "Petunia", "cultivar" : "Shock Wave Pink Shade", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80c" }, "commonName" : "Petunia", "cultivar" : "SUCCESS!® Coral", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80d" }, "commonName" : "Petunia", "cultivar" : "SUCCESS!® Pink Chiffon", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80e" }, "commonName" : "Petunia", "cultivar" : "SUCCESS!® Pink Vein", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80f" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Daybreak Charm", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f810" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Picasso in Purple", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f811" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Pretty Much Picasso®", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f812" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Really Red", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f813" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Vista Bubblegum®", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f814" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Vista Fuchsia (Imp)", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f815" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Vista Silverberry", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f816" }, "commonName" : "Petunia", "cultivar" : "Tidal Wave Silver", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f817" }, "commonName" : "Petunia", "cultivar" : "Tidal Wave® Red Velour F1", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f818" }, "commonName" : "Petunia", "cultivar" : "Trilogy Red F1", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f819" }, "commonName" : "Petunias", "cultivar" : "Sweetunia Lemon Frost 03", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81a" }, "commonName" : "Petunias", "cultivar" : "Sweetunia Suzie Storm", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81b" }, "commonName" : "Petunias", "cultivar" : "Sweetunia Velveteen Rabbit 01", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81c" }, "commonName" : "Portulaca", "cultivar" : "Happy Hour Orange", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81d" }, "commonName" : "Portulaca", "cultivar" : "Sun Daze Catmint", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81e" }, "commonName" : "Portulaca", "cultivar" : "Sun Daze Fuschia", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81f" }, "commonName" : "Portulaca", "cultivar" : "Sun Daze White", "gardenLocation" : 5 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f820" }, "commonName" : "Rudbeckia", "cultivar" : "Irish Eyes", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f821" }, "commonName" : "Rudbeckia", "cultivar" : "Tigereye Gold", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f822" }, "commonName" : "Salvia", "cultivar" : "Mojave Imp. Red", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f823" }, "commonName" : "Salvia", "cultivar" : "Summer Jewel Lavender", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f824" }, "commonName" : "Salvia", "cultivar" : "Summer Jewel Pink", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f825" }, "commonName" : "Salvia", "cultivar" : "Summer Jewel White", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f826" }, "commonName" : "Salvia farinacea", "cultivar" : "Evolution™", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f827" }, "commonName" : "Salvia greggii", "cultivar" : "Mirage™ Burgundy", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f828" }, "commonName" : "Salvia greggii", "cultivar" : "Mirage™ Cherry Red", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f829" }, "commonName" : "Salvia greggii", "cultivar" : "Mirage™ Deep Purple", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82a" }, "commonName" : "Salvia greggii", "cultivar" : "Mirage™ Violet", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82b" }, "commonName" : "Snapdragon", "cultivar" : "Antiquity Orange Bicolour", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82c" }, "commonName" : "Snapdragon", "cultivar" : "Antiquity Red Bicolour", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82d" }, "commonName" : "Verbena", "cultivar" : "EnduraScape™ Magenta", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82e" }, "commonName" : "Verbena", "cultivar" : "EnduraScape™ Pink Bicolor", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82f" }, "commonName" : "Verbena", "cultivar" : "EnduraScape™ Purple Improved", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f830" }, "commonName" : "Verbena", "cultivar" : "ES Lavender Charme 06", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f831" }, "commonName" : "Verbena", "cultivar" : "ES Pink 01", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f832" }, "commonName" : "Verbena", "cultivar" : "ES Violet 01", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f833" }, "commonName" : "Verbena", "cultivar" : "ES White Blush 04", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f834" }, "commonName" : "Verbena", "cultivar" : "Quartz XP Burgundy Eye", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f835" }, "commonName" : "Verbena", "cultivar" : "Superbena® Royale Peachy Keen (Imp)", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f836" }, "commonName" : "Verbena", "cultivar" : "Superbena® Royale Red", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f837" }, "commonName" : "Verbena", "cultivar" : "Superbena® Royale Romance", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f838" }, "commonName" : "Verbena", "cultivar" : "Superbena® Royale Whitecap", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f839" }, "commonName" : "Vinca", "cultivar" : "CAT-01-100 Hot Pink", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83a" }, "commonName" : "Vinca", "cultivar" : "CAT-01-101 Pink", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83b" }, "commonName" : "Vinca", "cultivar" : "CAT-01-102 White", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83c" }, "commonName" : "Vinca", "cultivar" : "CAT-05-100 Pink", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83d" }, "commonName" : "Vinca", "cultivar" : "CAT-05-101 Blue", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83e" }, "commonName" : "Vinca", "cultivar" : "CAT-05-102 Purple", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83f" }, "commonName" : "Vinca", "cultivar" : "CAT-05-103 Pink", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f840" }, "commonName" : "Vinca", "cultivar" : "CAT-07-100 Peach", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f841" }, "commonName" : "Vinca", "cultivar" : "CAT-07-101 Purple", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f842" }, "commonName" : "Vinca", "cultivar" : "CAT-07-102 White", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f843" }, "commonName" : "Vinca", "cultivar" : "Jams 'N Jellies Blackberry", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f844" }, "commonName" : "Vinca", "cultivar" : "Mega Bloom Orchid Halo", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f845" }, "commonName" : "Vinca", "cultivar" : "Mega Bloom Polkadot", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f846" }, "commonName" : "Vinca", "cultivar" : "Mega Bloom White", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f847" }, "commonName" : "Vinca", "cultivar" : "Mega Flow Strawberry Red", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f848" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Crown Pink", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f849" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Crown Rose", "gardenLocation" : "LG" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84a" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Double Pink", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84b" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Double White", "gardenLocation" : 9 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84c" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Kawaii™ Coral", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84d" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Kawaii™ Lavender", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84e" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Kawaii™ Pink", "gardenLocation" : 13 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84f" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche Apricot", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f850" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche Pink", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f851" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche Red", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f852" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche Rose", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f853" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche Violet", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f854" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche White", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f855" }, "commonName" : "Vinca", "cultivar" : "Titan Really Red", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f856" }, "commonName" : "Zinnia", "cultivar" : "Benary's Giant Scarlet", "gardenLocation" : "2S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f857" }, "commonName" : "Zinnia", "cultivar" : "Double Zahara Brilliant Mix", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f858" }, "commonName" : "Zinnia", "cultivar" : "Profusion Double Deep Salmon", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f859" }, "commonName" : "Zinnia", "cultivar" : "Profusion Double Hot Cherry", "gardenLocation" : 7 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85a" }, "commonName" : "Zinnia", "cultivar" : "Solmar Red", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85b" }, "commonName" : "Zinnia", "cultivar" : "Solmar Rose", "gardenLocation" : "1S" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85c" }, "commonName" : "Zinnia", "cultivar" : "Zahara Double Fire", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85d" }, "commonName" : "Zinnia", "cultivar" : "Zahara Double Yellow", "gardenLocation" : "1N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85e" }, "commonName" : "Zinnia", "cultivar" : "Zahara XL Fire Improved", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85f" }, "commonName" : "Zinnia", "cultivar" : "Zahara XL Pink", "gardenLocation" : 6 }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f860" }, "commonName" : "Zinnia", "cultivar" : "Zahara XL White", "gardenLocation" : "2N" }
-{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f861" }, "commonName" : "Zinnia", "cultivar" : "Zahara XL Yellow", "gardenLocation" : 6 }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f744" }, "commonName" : "Alternanthera", "cultivar" : "Experimental", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f745" }, "commonName" : "Angelonia", "cultivar" : "Angelface® Perfectly Pink", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f746" }, "commonName" : "Angelonia", "cultivar" : "Angelface® Super Blue", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f747" }, "commonName" : "Angelonia", "cultivar" : "Angelface® Super Pink", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f748" }, "commonName" : "Angelonia", "cultivar" : "Angelface® Super White", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f749" }, "commonName" : "Angelonia", "cultivar" : "Archangel™ Cherry Red", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74a" }, "commonName" : "Angelonia", "cultivar" : "Serenita™ Pink F1", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74b" }, "commonName" : "Arctotis", "cultivar" : "hybrid Orange", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74c" }, "commonName" : "Arctotis", "cultivar" : "hybrid Pink", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74d" }, "commonName" : "Arctotis", "cultivar" : "hybrid White", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74e" }, "commonName" : "Argyranthemum", "cultivar" : "Butterfly", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f74f" }, "commonName" : "Argyranthemum", "cultivar" : "Grandessa™ Pink Halo", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f750" }, "commonName" : "Argyranthemum", "cultivar" : "Grandessa™ Red", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f751" }, "commonName" : "Argyranthemum", "cultivar" : "Grandessa™ White", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f752" }, "commonName" : "Argyranthemum", "cultivar" : "Grandessa™ Yellow", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f753" }, "commonName" : "Argyranthemum", "cultivar" : "White Butterfly™", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f754" }, "commonName" : "Artemisia", "cultivar" : "Quicksilver™", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f755" }, "commonName" : "Artemisia", "cultivar" : "stelleriana Quicksilver™", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f756" }, "commonName" : "Asclepias", "cultivar" : "Curassavica Monarch Promise", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f757" }, "commonName" : "Begonia", "cultivar" : "Megawatt Pink Bronze Leaf", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f758" }, "commonName" : "Begonia", "cultivar" : "Megawatt Red Green Leaf", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f759" }, "commonName" : "Begonia", "cultivar" : "Megawatt Rose Green Leaf", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75a" }, "commonName" : "Begonia", "cultivar" : "Topspin Pink", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75b" }, "commonName" : "Begonia", "cultivar" : "Topspin Rose", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75c" }, "commonName" : "Begonia", "cultivar" : "Topspin Scarlet", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75d" }, "commonName" : "Begonia", "cultivar" : "Topspin White", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75e" }, "commonName" : "Begonia", "cultivar" : "Whopper Experimental 1620-13T1", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f75f" }, "commonName" : "Begonia", "cultivar" : "Whopper Experimental 1620-8T1", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f760" }, "commonName" : "Begonia", "cultivar" : "Whopper Experimental 1630-13T1", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f761" }, "commonName" : "Begonia", "cultivar" : "Whopper Experimental 1630-5T2", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f762" }, "commonName" : "Begonia", "cultivar" : "Whopper Red Bronze Foliage", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f763" }, "commonName" : "Begonia", "cultivar" : "Whopper Red Green Foliage", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f764" }, "commonName" : "Begonia", "cultivar" : "Whopper Rose Bronze Foliage", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f765" }, "commonName" : "Begonia semperflorens", "cultivar" : "Sprint Plus Orange", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f766" }, "commonName" : "Begonia semperflorens", "cultivar" : "Sprint Plus Red", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f767" }, "commonName" : "Begonia semperflorens", "cultivar" : "Sprint Plus Rose", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f768" }, "commonName" : "Begonia semperflorens", "cultivar" : "Sprint Plus White", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f769" }, "commonName" : "Begonia x hybrida", "cultivar" : "Funky™ Pink", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76a" }, "commonName" : "Canna", "cultivar" : "Cannova Mango", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76b" }, "commonName" : "Canna", "cultivar" : "Cannova Orange Shades", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76c" }, "commonName" : "Canna", "cultivar" : "South Pacific Scarlet F1", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76d" }, "commonName" : "Canna", "cultivar" : "Toucan™ Red", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76e" }, "commonName" : "Canna", "cultivar" : "Toucan™ Rose", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f76f" }, "commonName" : "Canna", "cultivar" : "Toucan™ Scarlet", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f770" }, "commonName" : "Canna", "cultivar" : "Toucan™ Yellow", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f771" }, "commonName" : "Celosia", "cultivar" : "Fresh Look Gold", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f772" }, "commonName" : "Celosia", "cultivar" : "New Look", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f773" }, "commonName" : "Coleus", "cultivar" : "Dragon Black", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f774" }, "commonName" : "Coleus", "cultivar" : "FlameThrower™ Habanero", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f775" }, "commonName" : "Coleus", "cultivar" : "French Quarter", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f776" }, "commonName" : "Coleus", "cultivar" : "Inferno", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f777" }, "commonName" : "Coleus", "cultivar" : "Kong Red", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f778" }, "commonName" : "Coleus", "cultivar" : "Kong Rose", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f779" }, "commonName" : "Coleus", "cultivar" : "Mainstreet Abbey Road", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77a" }, "commonName" : "Coleus", "cultivar" : "Mainstreet Granville Street", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77b" }, "commonName" : "Coleus", "cultivar" : "Mainstreet Wall Street", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77c" }, "commonName" : "Coleus", "cultivar" : "Premium Sun Pineapple Surprise", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77d" }, "commonName" : "Coleus", "cultivar" : "Ruby Slipper", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77e" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Pink Reef", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f77f" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Monkey Apricot", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f780" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Monkey Purple", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f781" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Monkey Rust", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f782" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Urchin Copper", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f783" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Urchin Neon", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f784" }, "commonName" : "Coleus", "cultivar" : "Under the Sea Sea Urchin Red", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f785" }, "commonName" : "Coleus", "cultivar" : "Wizard Golden", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f786" }, "commonName" : "Coleus", "cultivar" : "Wizard Scarlet", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f787" }, "commonName" : "Coreopsis", "cultivar" : "Sun Kiss", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f788" }, "commonName" : "Cosmos", "cultivar" : "Apollo Carmine", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f789" }, "commonName" : "Cosmos", "cultivar" : "Apollo Pink", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78a" }, "commonName" : "Cosmos", "cultivar" : "Apollo White", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78b" }, "commonName" : "Cosmos", "cultivar" : "Sonata Premium Carmine", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78c" }, "commonName" : "Cosmos", "cultivar" : "Sonata Premium Pink Blush", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78d" }, "commonName" : "Cyperus", "cultivar" : "Graceful Grasses® King Tut®", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78e" }, "commonName" : "Cyperus", "cultivar" : "Graceful Grasses® Prince Tut™", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f78f" }, "commonName" : "Dahlia", "cultivar" : "Starsister Crimson Tipped White", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f790" }, "commonName" : "Dianthus", "cultivar" : "Amazon Neon Cherry", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f791" }, "commonName" : "Dianthus", "cultivar" : "Jolt™ Pink F1", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f792" }, "commonName" : "Dianthus", "cultivar" : "Jolt Cherry", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f793" }, "commonName" : "Dusty Miller", "cultivar" : "Silverdust", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f794" }, "commonName" : "Echinacea", "cultivar" : "Cheyenne Spirit", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f795" }, "commonName" : "Gaillardia", "cultivar" : "Mesa Red", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f796" }, "commonName" : "Gaura", "cultivar" : "Sparkle White", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f797" }, "commonName" : "Geranium", "cultivar" : "Exp. Maverick Violet Picotee", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f798" }, "commonName" : "Geranium", "cultivar" : "Fancy leaf Glitterati Ice Queen", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f799" }, "commonName" : "Geranium", "cultivar" : "Maverick Scarlet Picotee", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79a" }, "commonName" : "Geranium", "cultivar" : "Pinto Premium Orange Bicolor", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79b" }, "commonName" : "Geranium", "cultivar" : "Pinto Premium Rose Bicolor", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79c" }, "commonName" : "Geranium", "cultivar" : "Pinto Premium White to Rose", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79d" }, "commonName" : "Geranium", "cultivar" : "Pinto™ Premium White to Rose F1", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79e" }, "commonName" : "Geranium", "cultivar" : "Quantum Light Pink", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f79f" }, "commonName" : "Geranium", "cultivar" : "Quantum Red", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a0" }, "commonName" : "Geranium", "cultivar" : "Quantum Salmon", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a1" }, "commonName" : "Geranium", "cultivar" : "Timeless™ Lavender (Imp)", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a2" }, "commonName" : "Gomphrena", "cultivar" : "Fireworks", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a3" }, "commonName" : "Graceful Grasses", "cultivar" : "Purple Fountain", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a4" }, "commonName" : "Hibiscus", "cultivar" : "Honeymoon Deep Red", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a5" }, "commonName" : "Impatiens", "cultivar" : "Infinity® Lavender (Imp)", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a6" }, "commonName" : "Impatiens", "cultivar" : "SunPatiens Spreading Clear White", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a7" }, "commonName" : "Impatiens", "cultivar" : "SunPatiens Spreading Pink Kiss", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a8" }, "commonName" : "Impatiens", "cultivar" : "SunPatiens Spreading Scarlet Red", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7a9" }, "commonName" : "Impatiens", "cultivar" : "SunPatiens Spreading Tropical Orange", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7aa" }, "commonName" : "Impatiens", "cultivar" : "Super Elfin XP Blue Pearl", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ab" }, "commonName" : "Impatiens", "cultivar" : "Super Elfin XP Lilac", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ac" }, "commonName" : "Impatiens", "cultivar" : "Super Elfin XP White", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ad" }, "commonName" : "Impatiens Interspecific", "cultivar" : "Big Bounce™ Pink", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ae" }, "commonName" : "Impatiens Interspecific", "cultivar" : "Bounce™ Bright Coral", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7af" }, "commonName" : "Impatiens Interspecific", "cultivar" : "Bounce™ Violet 17", "gardenLocation" : 11, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b0" }, "commonName" : "Ipomoea", "cultivar" : "Sweet Caroline Sweetheart Jet Black", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b1" }, "commonName" : "Ipomoea", "cultivar" : "Sweet Caroline Sweetheart Lime", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b2" }, "commonName" : "Juncus", "cultivar" : "Graceful Grasses® Blue Mohawk®", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b3" }, "commonName" : "Lantana", "cultivar" : "Lucky™ Red", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b4" }, "commonName" : "Lavender", "cultivar" : "Lavance Deep Purple", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b5" }, "commonName" : "Lobularia", "cultivar" : "North Face White", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b6" }, "commonName" : "Marigold", "cultivar" : "Bonanza Harmony", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b7" }, "commonName" : "Marigold", "cultivar" : "Bonanza Yellow", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b8" }, "commonName" : "Marigold", "cultivar" : "Boy Yellow", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7b9" }, "commonName" : "Marigold", "cultivar" : "Disco Red", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ba" }, "commonName" : "Marigold", "cultivar" : "Fireball", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7bb" }, "commonName" : "Marigold", "cultivar" : "Janie Gold", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7bc" }, "commonName" : "Marigold", "cultivar" : "Janie Yellow Bright", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7bd" }, "commonName" : "Marigold", "cultivar" : "Marvel Yellow", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7be" }, "commonName" : "Marigold", "cultivar" : "Strawberry Blonde", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7bf" }, "commonName" : "Marigold", "cultivar" : "Taishan Gold Improved", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c0" }, "commonName" : "Melampodium", "cultivar" : "Derby", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c1" }, "commonName" : "Mexican Sunflower (Tithonia)", "cultivar" : "Torch", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c2" }, "commonName" : "New Guinea Impatiens", "cultivar" : "Divine Lipstick", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c3" }, "commonName" : "New Guinea Impatiens", "cultivar" : "Divine Orchid", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c4" }, "commonName" : "New Guinea Impatiens", "cultivar" : "Florific™ Sweet Orange F1", "gardenLocation" : 10, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c5" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Cherry", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c6" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Coral Aurora", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c7" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Fire Red", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c8" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Hot Pink", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7c9" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Neon", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ca" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Pink Frost 11-08", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7cb" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Pink Frost 28-05", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7cc" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Purple", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7cd" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Rose Aurora", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ce" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Rose Frost 11-15", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7cf" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding Salmon", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d0" }, "commonName" : "New Guinea Impatiens", "cultivar" : "SunStanding White Cloud", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d1" }, "commonName" : "Nicotiana", "cultivar" : "Perfume Red", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d2" }, "commonName" : "Oranmental Pepper", "cultivar" : "Sedona Sun", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d3" }, "commonName" : "Ornamental Grass", "cultivar" : "Juncus ColorGrass Javelin", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d4" }, "commonName" : "Ornamental Grass", "cultivar" : "Quaking", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d5" }, "commonName" : "Ornamental Grass Panicum", "cultivar" : "Panic Grass", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d6" }, "commonName" : "Ornamental Millet", "cultivar" : "Purple Baron", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d7" }, "commonName" : "Ornamental Millet", "cultivar" : "Purple Majesty", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d8" }, "commonName" : "Ornamental Millet", "cultivar" : "Red Jewel", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7d9" }, "commonName" : "Ornamental Pepper", "cultivar" : "Black Hawk", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7da" }, "commonName" : "Ornamental pepper", "cultivar" : "Black Olive", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7db" }, "commonName" : "Ornamental pepper", "cultivar" : "NuMex Easter", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7dc" }, "commonName" : "Osteospermum", "cultivar" : "Akila® Daisy White F1", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7dd" }, "commonName" : "Osteospermum", "cultivar" : "Bright Lights™ Yellow", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7de" }, "commonName" : "Osteospermum", "cultivar" : "Sunny™ Fanny", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7df" }, "commonName" : "Osteospermum", "cultivar" : "Sunny™ Frida", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e0" }, "commonName" : "Pennisetum", "cultivar" : "Graceful Grasses® Fireworks", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e1" }, "commonName" : "Pennisetum", "cultivar" : "Graceful Grasses® Red Riding Hood", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e2" }, "commonName" : "Penstemon", "cultivar" : "Arabesque Red", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e3" }, "commonName" : "Penstemon", "cultivar" : "Arabesque™ Red F1", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e4" }, "commonName" : "Pentas", "cultivar" : "BeeBright Lipstick", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e5" }, "commonName" : "Pentas", "cultivar" : "BeeBright Pink", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e6" }, "commonName" : "Pentas", "cultivar" : "BeeBright Pink", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e7" }, "commonName" : "Pentas", "cultivar" : "BeeBright Red", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e8" }, "commonName" : "Pentas", "cultivar" : "BeeBright White", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7e9" }, "commonName" : "Pentas", "cultivar" : "Exp. HoneyCluster Red", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ea" }, "commonName" : "Pentas", "cultivar" : "HoneyCluster Deep Rose", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7eb" }, "commonName" : "Pentas", "cultivar" : "HoneyCluster Pink", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ec" }, "commonName" : "Pentas", "cultivar" : "HoneyCluster White", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ed" }, "commonName" : "Pentas", "cultivar" : "Kaleidoscope Deep Red", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ee" }, "commonName" : "Perovskia", "cultivar" : "Blue Steel", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ef" }, "commonName" : "Petunia", "cultivar" : "African Sunset F1", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f0" }, "commonName" : "Petunia", "cultivar" : "Celebrity Pink Morn", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f1" }, "commonName" : "Petunia", "cultivar" : "ColorRush™ Blue", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f2" }, "commonName" : "Petunia", "cultivar" : "ColorRush™ Pink", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f3" }, "commonName" : "Petunia", "cultivar" : "ColorRush™ Pink Star", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f4" }, "commonName" : "Petunia", "cultivar" : "Damask® Blue", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f5" }, "commonName" : "Petunia", "cultivar" : "Damask® Pink", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f6" }, "commonName" : "Petunia", "cultivar" : "Damask® Red", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f7" }, "commonName" : "Petunia", "cultivar" : "Damask® White", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f8" }, "commonName" : "Petunia", "cultivar" : "Dreams Red Picotee", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7f9" }, "commonName" : "Petunia", "cultivar" : "Exp. Damask Purple", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7fa" }, "commonName" : "Petunia", "cultivar" : "Exp. Picobella Pink", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7fb" }, "commonName" : "Petunia", "cultivar" : "Limbo GP Heather's Mixture", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7fc" }, "commonName" : "Petunia", "cultivar" : "Limbo GP Mid Blue (EXP)", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7fd" }, "commonName" : "Petunia", "cultivar" : "Limbo GP Plum", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7fe" }, "commonName" : "Petunia", "cultivar" : "Limbo GP Red", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f7ff" }, "commonName" : "Petunia", "cultivar" : "Limbo GP Sky Blue (EXP)", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f800" }, "commonName" : "Petunia", "cultivar" : "Mambo GP Orchid", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f801" }, "commonName" : "Petunia", "cultivar" : "Mambo GP Red", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f802" }, "commonName" : "Petunia", "cultivar" : "Mambo GP Red Morn (EXP)", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f803" }, "commonName" : "Petunia", "cultivar" : "Mambo GP Rose Morn", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f804" }, "commonName" : "Petunia", "cultivar" : "Mambo GP White", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f805" }, "commonName" : "Petunia", "cultivar" : "Mambo Mid Blue (EXP)", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f806" }, "commonName" : "Petunia", "cultivar" : "Night Sky", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f807" }, "commonName" : "Petunia", "cultivar" : "Radiance Grape", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f808" }, "commonName" : "Petunia", "cultivar" : "Radiance Lilac", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f809" }, "commonName" : "Petunia", "cultivar" : "Radiance White", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80a" }, "commonName" : "Petunia", "cultivar" : "Ramblin Nu Blue", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80b" }, "commonName" : "Petunia", "cultivar" : "Shock Wave Pink Shade", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80c" }, "commonName" : "Petunia", "cultivar" : "SUCCESS!® Coral", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80d" }, "commonName" : "Petunia", "cultivar" : "SUCCESS!® Pink Chiffon", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80e" }, "commonName" : "Petunia", "cultivar" : "SUCCESS!® Pink Vein", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f80f" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Daybreak Charm", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f810" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Picasso in Purple", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f811" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Pretty Much Picasso®", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f812" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Really Red", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f813" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Vista Bubblegum®", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f814" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Vista Fuchsia (Imp)", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f815" }, "commonName" : "Petunia", "cultivar" : "Supertunia® Vista Silverberry", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f816" }, "commonName" : "Petunia", "cultivar" : "Tidal Wave Silver", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f817" }, "commonName" : "Petunia", "cultivar" : "Tidal Wave® Red Velour F1", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f818" }, "commonName" : "Petunia", "cultivar" : "Trilogy Red F1", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f819" }, "commonName" : "Petunias", "cultivar" : "Sweetunia Lemon Frost 03", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81a" }, "commonName" : "Petunias", "cultivar" : "Sweetunia Suzie Storm", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81b" }, "commonName" : "Petunias", "cultivar" : "Sweetunia Velveteen Rabbit 01", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81c" }, "commonName" : "Portulaca", "cultivar" : "Happy Hour Orange", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81d" }, "commonName" : "Portulaca", "cultivar" : "Sun Daze Catmint", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81e" }, "commonName" : "Portulaca", "cultivar" : "Sun Daze Fuschia", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f81f" }, "commonName" : "Portulaca", "cultivar" : "Sun Daze White", "gardenLocation" : 5, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f820" }, "commonName" : "Rudbeckia", "cultivar" : "Irish Eyes", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f821" }, "commonName" : "Rudbeckia", "cultivar" : "Tigereye Gold", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f822" }, "commonName" : "Salvia", "cultivar" : "Mojave Imp. Red", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f823" }, "commonName" : "Salvia", "cultivar" : "Summer Jewel Lavender", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f824" }, "commonName" : "Salvia", "cultivar" : "Summer Jewel Pink", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f825" }, "commonName" : "Salvia", "cultivar" : "Summer Jewel White", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f826" }, "commonName" : "Salvia farinacea", "cultivar" : "Evolution™", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f827" }, "commonName" : "Salvia greggii", "cultivar" : "Mirage™ Burgundy", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f828" }, "commonName" : "Salvia greggii", "cultivar" : "Mirage™ Cherry Red", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f829" }, "commonName" : "Salvia greggii", "cultivar" : "Mirage™ Deep Purple", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82a" }, "commonName" : "Salvia greggii", "cultivar" : "Mirage™ Violet", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82b" }, "commonName" : "Snapdragon", "cultivar" : "Antiquity Orange Bicolour", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82c" }, "commonName" : "Snapdragon", "cultivar" : "Antiquity Red Bicolour", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82d" }, "commonName" : "Verbena", "cultivar" : "EnduraScape™ Magenta", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82e" }, "commonName" : "Verbena", "cultivar" : "EnduraScape™ Pink Bicolor", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f82f" }, "commonName" : "Verbena", "cultivar" : "EnduraScape™ Purple Improved", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f830" }, "commonName" : "Verbena", "cultivar" : "ES Lavender Charme 06", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f831" }, "commonName" : "Verbena", "cultivar" : "ES Pink 01", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f832" }, "commonName" : "Verbena", "cultivar" : "ES Violet 01", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f833" }, "commonName" : "Verbena", "cultivar" : "ES White Blush 04", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f834" }, "commonName" : "Verbena", "cultivar" : "Quartz XP Burgundy Eye", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f835" }, "commonName" : "Verbena", "cultivar" : "Superbena® Royale Peachy Keen (Imp)", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f836" }, "commonName" : "Verbena", "cultivar" : "Superbena® Royale Red", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f837" }, "commonName" : "Verbena", "cultivar" : "Superbena® Royale Romance", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f838" }, "commonName" : "Verbena", "cultivar" : "Superbena® Royale Whitecap", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f839" }, "commonName" : "Vinca", "cultivar" : "CAT-01-100 Hot Pink", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83a" }, "commonName" : "Vinca", "cultivar" : "CAT-01-101 Pink", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83b" }, "commonName" : "Vinca", "cultivar" : "CAT-01-102 White", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83c" }, "commonName" : "Vinca", "cultivar" : "CAT-05-100 Pink", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83d" }, "commonName" : "Vinca", "cultivar" : "CAT-05-101 Blue", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83e" }, "commonName" : "Vinca", "cultivar" : "CAT-05-102 Purple", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f83f" }, "commonName" : "Vinca", "cultivar" : "CAT-05-103 Pink", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f840" }, "commonName" : "Vinca", "cultivar" : "CAT-07-100 Peach", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f841" }, "commonName" : "Vinca", "cultivar" : "CAT-07-101 Purple", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f842" }, "commonName" : "Vinca", "cultivar" : "CAT-07-102 White", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f843" }, "commonName" : "Vinca", "cultivar" : "Jams 'N Jellies Blackberry", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f844" }, "commonName" : "Vinca", "cultivar" : "Mega Bloom Orchid Halo", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f845" }, "commonName" : "Vinca", "cultivar" : "Mega Bloom Polkadot", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f846" }, "commonName" : "Vinca", "cultivar" : "Mega Bloom White", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f847" }, "commonName" : "Vinca", "cultivar" : "Mega Flow Strawberry Red", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f848" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Crown Pink", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f849" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Crown Rose", "gardenLocation" : "LG", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84a" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Double Pink", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84b" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Double White", "gardenLocation" : 9, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84c" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Kawaii™ Coral", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84d" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Kawaii™ Lavender", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84e" }, "commonName" : "Vinca", "cultivar" : "Soiree™ Kawaii™ Pink", "gardenLocation" : 13, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f84f" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche Apricot", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f850" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche Pink", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f851" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche Red", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f852" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche Rose", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f853" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche Violet", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f854" }, "commonName" : "Vinca", "cultivar" : "Solar Avalanche White", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f855" }, "commonName" : "Vinca", "cultivar" : "Titan Really Red", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f856" }, "commonName" : "Zinnia", "cultivar" : "Benary's Giant Scarlet", "gardenLocation" : "2S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f857" }, "commonName" : "Zinnia", "cultivar" : "Double Zahara Brilliant Mix", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f858" }, "commonName" : "Zinnia", "cultivar" : "Profusion Double Deep Salmon", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f859" }, "commonName" : "Zinnia", "cultivar" : "Profusion Double Hot Cherry", "gardenLocation" : 7, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85a" }, "commonName" : "Zinnia", "cultivar" : "Solmar Red", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85b" }, "commonName" : "Zinnia", "cultivar" : "Solmar Rose", "gardenLocation" : "1S", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85c" }, "commonName" : "Zinnia", "cultivar" : "Zahara Double Fire", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85d" }, "commonName" : "Zinnia", "cultivar" : "Zahara Double Yellow", "gardenLocation" : "1N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85e" }, "commonName" : "Zinnia", "cultivar" : "Zahara XL Fire Improved", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f85f" }, "commonName" : "Zinnia", "cultivar" : "Zahara XL Pink", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f860" }, "commonName" : "Zinnia", "cultivar" : "Zahara XL White", "gardenLocation" : "2N", "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
+{ "_id" : { "$oid" : "58b8f2565fbad0fc7a89f861" }, "commonName" : "Zinnia", "cultivar" : "Zahara XL Yellow", "gardenLocation" : 6, "metadata" : { "likes": 0, "dislikes": 0, "pageViews": 0 } }
