@@ -10,6 +10,7 @@ import { UserListComponent } from './app/users/user-list.component';
 import { UserListService } from './app/users/user-list.service';
 import { routing } from './app/app.routes';
 import { FormsModule } from '@angular/forms';
+import {PlantComponent} from './app/plants/plant.component';
 
 import { PipeModule } from './pipe.module';
 
@@ -27,7 +28,8 @@ import { PipeModule } from './pipe.module';
         KittensComponent,
         HomeComponent,
         NavbarComponent,
-        UserListComponent
+        UserListComponent,
+        PlantComponent
     ],
     providers: [ UserListService ],
     bootstrap: [ AppComponent ]
