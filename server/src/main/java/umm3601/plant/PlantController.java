@@ -46,4 +46,16 @@ public class PlantController {
 
     }
 
+    // does this need to be synchronized?
+//    public synchronized boolean likePlant(String id) {
+//        Document searchDocument = new Document();
+//        searchDocument.append("_id", new ObjectId(id));
+//
+//        Document updateDocument = new Document();
+//        updateDocument.append("$inc");
+//
+//        plantCollection.findOneAndUpdate(searchDocument, updateDocument);
+//        return false;
+//    }
+
 }
