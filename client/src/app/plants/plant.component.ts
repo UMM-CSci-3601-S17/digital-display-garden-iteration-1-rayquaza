@@ -7,11 +7,7 @@ import 'rxjs/add/operator/switchMap';
 
 @Component({
     selector: 'plant-component',
-    template: `
-        <p> Hello World!</p>
-        <p> {{plant.commonName}}</p>
-        <p> {{plant.cultivar}}</p>
-        `
+    templateUrl: 'plant.component.html'
 })
 
 export class PlantComponent implements OnInit {
