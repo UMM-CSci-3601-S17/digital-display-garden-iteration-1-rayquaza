@@ -64,6 +64,23 @@ public class Server {
             return plantController.getPlant(id);
         });
 
+        // Like a specific plant
+        // todo Should this be POST or PUT or something?
+        get("api/plant/:id/like", (req, res) -> {
+            res.type("application/json");
+            String id = req.params("id");
+            return plantController.incrementMetadata(id, "likes");
+        });
+
+        // Dislike a specific plant
+        // todo Should this be POST or PUT or something?
+        get("api/plant/:id/dislike", (req, res) -> {
+            res.type("application/json");
+            String id = req.params("id");
+            return plantController.incrementMetadata(id, "dislikes");
+        });
+
+
         // Handle "404" file not found requests:
         notFound((req, res) -> {
             res.type("text");
