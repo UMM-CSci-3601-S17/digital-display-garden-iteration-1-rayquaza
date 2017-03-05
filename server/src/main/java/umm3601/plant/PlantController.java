@@ -6,10 +6,12 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 import org.bson.types.ObjectId;
+import org.bson.conversions.Bson;
 
 import java.util.Iterator;
 
 import static com.mongodb.client.model.Filters.eq;
+import static com.mongodb.client.model.Updates.*;
 
 
 public class PlantController {
@@ -46,16 +48,25 @@ public class PlantController {
 
     }
 
-    // does this need to be synchronized?
-//    public synchronized boolean likePlant(String id) {
-//        Document searchDocument = new Document();
-//        searchDocument.append("_id", new ObjectId(id));
-//
-//        Document updateDocument = new Document();
-//        updateDocument.append("$inc");
-//
-//        plantCollection.findOneAndUpdate(searchDocument, updateDocument);
-//        return false;
-//    }
+    public boolean ratePlant(String id, String rating) {
+
+        ObjectId objectId;
+
+        try {
+            objectId = new ObjectId(id);
+        } catch (IllegalArgumentException e) {
+            return false;
+        }
+
+
+        Document searchDocument = new Document();
+        searchDocument.append("_id", objectId);
+
+        Bson updateDocument = inc("metadata." + rating + "s", 1);
+
+        return null != plantCollection.findOneAndUpdate(searchDocument, updateDocument);
+    }
+
+
 
 }
