@@ -35,6 +35,7 @@ public class PlantController {
             Iterator<Document> iterator = jsonPlant.iterator();
 
             if (iterator.hasNext()) {
+                incrementMetadata(id, "pageViews");
                 returnVal = iterator.next().toJson();
             } else {
                 returnVal = "null";
@@ -48,7 +49,7 @@ public class PlantController {
 
     }
 
-    public boolean ratePlant(String id, String rating) {
+    public boolean incrementMetadata(String id, String field) {
 
         ObjectId objectId;
 
@@ -62,7 +63,7 @@ public class PlantController {
         Document searchDocument = new Document();
         searchDocument.append("_id", objectId);
 
-        Bson updateDocument = inc("metadata." + rating + "s", 1);
+        Bson updateDocument = inc("metadata." + field, 1);
 
         return null != plantCollection.findOneAndUpdate(searchDocument, updateDocument);
     }
