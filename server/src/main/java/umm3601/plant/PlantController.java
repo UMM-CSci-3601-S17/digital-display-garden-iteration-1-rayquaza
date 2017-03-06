@@ -26,6 +26,29 @@ public class PlantController {
         plantCollection = db.getCollection("plants");
     }
 
+    /**
+     * Takes a String representing a hexadecimal ID number of a plant
+     * and when the ID is found in the database returns a JSON document
+     * as a String of the following form
+     *
+     * <code>
+     * {
+     *  "_id"        : { "$oid": String },
+     *  "commonName" : String,
+     *  "cultivar"   : String
+     * }
+     * </code>
+     *
+     * If the ID is invalid or not found, the following JSON value is
+     * returned
+     *
+     * <code>
+     *  null
+     * </code>
+     *
+     * @param id a hexadecimal ID number of a plant in the DB
+     * @return a string representation of a JSON value
+     */
     public String getPlant(String id) {
 
         FindIterable<Document> jsonPlant;
