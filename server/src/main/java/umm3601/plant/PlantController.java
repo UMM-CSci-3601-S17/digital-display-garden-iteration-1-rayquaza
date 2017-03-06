@@ -75,6 +75,17 @@ public class PlantController {
 
     }
 
+    /**
+     * Finds a plant and atomically increments the specified field
+     * in its metadata object. This method returns true if the plant was
+     * found successfully (false otherwise), but there is no indication of
+     * whether the field was found.
+     *
+     * @param id a hexadecimal ID number of a plant in the DB
+     * @param field a field to be incremented in the metadata object of the plant
+     * @return true if a plant was found
+     * @throws com.mongodb.MongoCommandException when the id is valid and the field is empty
+     */
     public boolean incrementMetadata(String id, String field) {
 
         ObjectId objectId;
