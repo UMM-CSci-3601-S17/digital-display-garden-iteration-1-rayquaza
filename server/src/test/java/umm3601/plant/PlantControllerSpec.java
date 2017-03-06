@@ -9,6 +9,8 @@ import org.bson.Document;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
 import java.io.IOException;
@@ -52,6 +54,30 @@ public class PlantControllerSpec {
         // This test is mostly just to make sure we are building the mock database correctly
 
         assertNotEquals("", plantController.getPlant("58b8f2565fbad0fc7a89f858"));
+
+    }
+
+    @Test
+    public void getPlantReturnsNullWhenTheIdIsNotFound() {
+
+        assertEquals("null", plantController.getPlant("000000000000000000000000"));
+
+    }
+
+    @Test
+    public void getPlantReturnsNullWhenTheIdIsMalformed() {
+
+        assertEquals("null", plantController.getPlant("oh snap!"));
+
+    }
+
+    @Test
+    public void getPlantReturnsObjectWithProperNames() {
+
+        String jsonAsString = plantController.getPlant("58b8f2565fbad0fc7a89f74b");
+        Document doc = Document.parse(jsonAsString);
+        assertEquals("commonName should be Arctotis", "Arctotis", doc.getString("commonName"));
+        assertEquals("cultivar should be hybrid Orange", "hybrid Orange", doc.getString("cultivar"));
 
     }
 
