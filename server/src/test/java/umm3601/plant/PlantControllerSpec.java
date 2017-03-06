@@ -134,6 +134,29 @@ public class PlantControllerSpec {
 
     }
 
+    @Test
+    public void incrementMetadataIncrementsMetadata() {
+
+        String targetId = "58b8f2565fbad0fc7a89f85a";
+
+        plantController.incrementMetadata(targetId, "likes");
+        plantController.incrementMetadata(targetId, "likes");
+        plantController.incrementMetadata(targetId, "likes");
+
+        // All this hassle is to test the db contents to see if they actually changed
+        MongoClient mongoClient = new MongoClient();
+        MongoDatabase db = mongoClient.getDatabase(databaseName);
+        MongoCollection<Document> plantDocuments = db.getCollection(collectionName);
+        Document searchDoc = new Document();
+        searchDoc.append("_id", new ObjectId(targetId));
+
+        Iterator<Document> iterator = plantDocuments.find(searchDoc).iterator();
+        Document resultDoc = iterator.next();
+
+        assertEquals("The likes should be 3", 3, ((Document)resultDoc.get("metadata")).get("likes"));
+
+    }
+
     @AfterClass
     public static void removeTestData() {
         // We are nice people, so we clean up after ourselves
