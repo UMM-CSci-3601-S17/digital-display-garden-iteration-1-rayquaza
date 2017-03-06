@@ -11,7 +11,9 @@ import org.bson.conversions.Bson;
 import java.util.Iterator;
 
 import static com.mongodb.client.model.Filters.eq;
+import static com.mongodb.client.model.Projections.include;
 import static com.mongodb.client.model.Updates.*;
+import static com.mongodb.client.model.Projections.fields;
 
 
 public class PlantController {
@@ -30,7 +32,8 @@ public class PlantController {
         String returnVal;
         try {
 
-            jsonPlant = plantCollection.find(eq("_id", new ObjectId(id)));
+            jsonPlant = plantCollection.find(eq("_id", new ObjectId(id)))
+                    .projection(fields(include("commonName", "cultivar")));
 
             Iterator<Document> iterator = jsonPlant.iterator();
 
