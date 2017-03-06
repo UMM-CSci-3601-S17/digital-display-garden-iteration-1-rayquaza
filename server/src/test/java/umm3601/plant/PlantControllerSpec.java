@@ -12,9 +12,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 import static org.junit.Assert.*;
 
@@ -115,6 +113,19 @@ public class PlantControllerSpec {
         Document resultDoc = getPlantById(targetId);
 
         assertEquals("The pageViews should be 1", 1, ((Document) resultDoc.get("metadata")).get("pageViews"));
+
+    }
+
+    @Test
+    public void getPlantReturnsDocumentWithCorrectKeys() {
+
+        String jsonAsString = plantController.getPlant("58b8f2565fbad0fc7a89f746");
+        Document doc = Document.parse(jsonAsString);
+
+        Set<String> expectedKeys = new HashSet(Arrays.asList("commonName", "cultivar", "_id"));
+        Set<String> actualKeys = doc.keySet();
+
+        assertEquals(expectedKeys, actualKeys);
 
     }
 
