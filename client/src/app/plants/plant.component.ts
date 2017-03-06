@@ -11,6 +11,7 @@ import 'rxjs/add/operator/switchMap';
 })
 
 export class PlantComponent implements OnInit {
+    private rated: Boolean = false;
     private plant: Plant = {id: "", commonName: "", cultivar: "", gardenLocation: ""};
     constructor(private plantService: PlantService,
                 private route: ActivatedRoute,
@@ -23,4 +24,10 @@ export class PlantComponent implements OnInit {
             .subscribe(plant => this.plant = plant);
     }
 
+    private rate(rating: string): void {
+        if(!this.rated){
+            this.plantService.ratePlant(this.plant["_id"]["$oid"], rating)
+                .subscribe(succeeded => this.rated = succeeded);
+        }
+    }
 }

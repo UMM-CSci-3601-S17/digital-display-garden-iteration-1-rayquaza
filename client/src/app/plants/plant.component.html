@@ -4,6 +4,6 @@
     <h3 >{{plant.cultivar}}</h3>
     <br>
     <p> Common Name: {{plant.commonName}}</p>
-    <button type="button"><span class="glyphicon glyphicon-thumbs-up"></span> Like</button>
-    <button type="button"><span class="glyphicon glyphicon-thumbs-down"></span> Dislike</button>
+    <button type="button" (click)="this.rate('like')"><span class="glyphicon glyphicon-thumbs-up"></span> Like</button>
+    <button type="button" (click)="this.rate('dislike')"><span class="glyphicon glyphicon-thumbs-down"></span> Dislike</button>
 </div>

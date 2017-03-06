@@ -17,4 +17,8 @@ export class PlantService {
     getPlantById(id: string): Observable<Plant> {
         return this.http.request(this.plantUrl + "/" + id).map(res => res.json());
     }
+
+    ratePlant(id: string, rating: string): Observable<Boolean> {
+        return this.http.request(this.plantUrl + "/" + id + "/" + rating).map(res => res.json());
+    }
 }
