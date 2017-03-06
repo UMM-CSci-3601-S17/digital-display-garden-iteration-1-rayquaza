@@ -6,6 +6,7 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
 import org.bson.Document;
+import org.bson.types.ObjectId;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,6 +16,7 @@ import static org.junit.Assert.assertNotEquals;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class PlantControllerSpec {
@@ -78,6 +80,27 @@ public class PlantControllerSpec {
         Document doc = Document.parse(jsonAsString);
         assertEquals("commonName should be Arctotis", "Arctotis", doc.getString("commonName"));
         assertEquals("cultivar should be hybrid Orange", "hybrid Orange", doc.getString("cultivar"));
+
+    }
+
+    @Test
+    public void getPlantUpdatesPageViews() {
+
+        String targetId = "58b8f2565fbad0fc7a89f85a";
+
+        plantController.getPlant(targetId);
+
+        // All this hassle is to test the db contents to see if they actually changed
+        MongoClient mongoClient = new MongoClient();
+        MongoDatabase db = mongoClient.getDatabase(databaseName);
+        MongoCollection<Document> plantDocuments = db.getCollection(collectionName);
+        Document searchDoc = new Document();
+        searchDoc.append("_id", new ObjectId(targetId));
+
+        Iterator<Document> iterator = plantDocuments.find(searchDoc).iterator();
+        Document resultDoc = iterator.next();
+
+        assertEquals("The pageViews should be 1", 1, ((Document)resultDoc.get("metadata")).get("pageViews"));
 
     }
 
