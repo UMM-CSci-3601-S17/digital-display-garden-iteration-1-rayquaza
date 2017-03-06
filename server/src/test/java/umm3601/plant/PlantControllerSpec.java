@@ -120,8 +120,8 @@ public class PlantControllerSpec {
     @Test
     public void incrementMetadataReturnsTrueWhenIdIsFound() {
 
-        // Note that no error is thrown when we provide no proper field
-        assertTrue(plantController.incrementMetadata("58b8f2565fbad0fc7a89f858", ""));
+        // Note that the field doesn't matter as long is it is non-empty
+        assertTrue(plantController.incrementMetadata("58b8f2565fbad0fc7a89f858", "foobar"));
 
     }
 
