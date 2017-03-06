@@ -125,6 +125,15 @@ public class PlantControllerSpec {
 
     }
 
+    @Test(expected = com.mongodb.MongoCommandException.class)
+    public void incrementMetadataThrowsExceptionWhenIdIsFoundAndFieldIsEmpty() {
+
+        // some argue that you shouldn't have tests like this, but it makes for
+        // nice documentation, so whatever
+        plantController.incrementMetadata("58b8f2565fbad0fc7a89f858", "");
+
+    }
+
     @AfterClass
     public static void removeTestData() {
         // We are nice people, so we clean up after ourselves
