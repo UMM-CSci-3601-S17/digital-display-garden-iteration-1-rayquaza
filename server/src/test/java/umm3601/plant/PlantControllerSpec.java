@@ -11,13 +11,12 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
+import static org.junit.Assert.*;
 
 public class PlantControllerSpec {
 
@@ -101,6 +100,28 @@ public class PlantControllerSpec {
         Document resultDoc = iterator.next();
 
         assertEquals("The pageViews should be 1", 1, ((Document)resultDoc.get("metadata")).get("pageViews"));
+
+    }
+
+    @Test
+    public void incrementMetadataReturnsFalseWhenIdIsNotFound() {
+
+        assertFalse(plantController.incrementMetadata("000000000000000000000000", ""));
+
+    }
+
+    @Test
+    public void incrementMetadataReturnsFalseWhenIdIsMalformed() {
+
+        assertFalse(plantController.incrementMetadata("I'm not hexadecimal!", ""));
+
+    }
+
+    @Test
+    public void incrementMetadataReturnsTrueWhenIdIsFound() {
+
+        // Note that no error is thrown when we provide no proper field
+        assertTrue(plantController.incrementMetadata("58b8f2565fbad0fc7a89f858", ""));
 
     }
 
