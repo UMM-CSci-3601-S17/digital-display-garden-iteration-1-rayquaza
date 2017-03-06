@@ -50,6 +50,29 @@ public class PlantControllerSpec {
 
     }
 
+    /**
+     * The method fetches a single plant from the database. Because the
+     * getPlant(String) method in PlantController has side effects, we
+     * use this method to inspect the DB manually during testing.
+     *
+     * Note that this method does no sanity checking on the query.
+     *
+     * @param targetId a string specifying an ID of the plant
+     * @return a Document straight from the DB
+     */
+    private Document getPlantById(String targetId) {
+
+        // All this hassle is to test the db contents to see if they actually changed
+        MongoClient mongoClient = new MongoClient();
+        MongoDatabase db = mongoClient.getDatabase(databaseName);
+        MongoCollection<Document> plantDocuments = db.getCollection(collectionName);
+        Document searchDoc = new Document();
+        searchDoc.append("_id", new ObjectId(targetId));
+
+        Iterator<Document> iterator = plantDocuments.find(searchDoc).iterator();
+        return iterator.next();
+    }
+
     @Test
     public void getPlantReturnsNonEmptyString() {
         // This test is mostly just to make sure we are building the mock database correctly
@@ -89,17 +112,9 @@ public class PlantControllerSpec {
 
         plantController.getPlant(targetId);
 
-        // All this hassle is to test the db contents to see if they actually changed
-        MongoClient mongoClient = new MongoClient();
-        MongoDatabase db = mongoClient.getDatabase(databaseName);
-        MongoCollection<Document> plantDocuments = db.getCollection(collectionName);
-        Document searchDoc = new Document();
-        searchDoc.append("_id", new ObjectId(targetId));
+        Document resultDoc = getPlantById(targetId);
 
-        Iterator<Document> iterator = plantDocuments.find(searchDoc).iterator();
-        Document resultDoc = iterator.next();
-
-        assertEquals("The pageViews should be 1", 1, ((Document)resultDoc.get("metadata")).get("pageViews"));
+        assertEquals("The pageViews should be 1", 1, ((Document) resultDoc.get("metadata")).get("pageViews"));
 
     }
 
@@ -143,17 +158,9 @@ public class PlantControllerSpec {
         plantController.incrementMetadata(targetId, "likes");
         plantController.incrementMetadata(targetId, "likes");
 
-        // All this hassle is to test the db contents to see if they actually changed
-        MongoClient mongoClient = new MongoClient();
-        MongoDatabase db = mongoClient.getDatabase(databaseName);
-        MongoCollection<Document> plantDocuments = db.getCollection(collectionName);
-        Document searchDoc = new Document();
-        searchDoc.append("_id", new ObjectId(targetId));
+        Document resultDoc = getPlantById(targetId);
 
-        Iterator<Document> iterator = plantDocuments.find(searchDoc).iterator();
-        Document resultDoc = iterator.next();
-
-        assertEquals("The likes should be 3", 3, ((Document)resultDoc.get("metadata")).get("likes"));
+        assertEquals("The likes should be 3", 3, ((Document) resultDoc.get("metadata")).get("likes"));
 
     }
 
