@@ -20,7 +20,8 @@ public class PlantControllerSpec {
 
     private PlantController plantController;
     private static String databaseName = "data-for-testing-only";
-    private static String collectionName = "plants";
+    private static String plantCollection = "plants";
+    private static String commentCollection = "comments";
 
 
     @Before
@@ -29,7 +30,7 @@ public class PlantControllerSpec {
         // Get a connection to the database
         MongoClient mongoClient = new MongoClient();
         MongoDatabase db = mongoClient.getDatabase(databaseName);
-        MongoCollection<Document> plantDocuments = db.getCollection(collectionName);
+        MongoCollection<Document> plantDocuments = db.getCollection(plantCollection);
 
         // clear the collection before each test
         plantDocuments.drop();
@@ -63,7 +64,7 @@ public class PlantControllerSpec {
         // All this hassle is to test the db contents to see if they actually changed
         MongoClient mongoClient = new MongoClient();
         MongoDatabase db = mongoClient.getDatabase(databaseName);
-        MongoCollection<Document> plantDocuments = db.getCollection(collectionName);
+        MongoCollection<Document> plantDocuments = db.getCollection(plantCollection);
         Document searchDoc = new Document();
         searchDoc.append("_id", new ObjectId(targetId));
 
@@ -174,6 +175,15 @@ public class PlantControllerSpec {
         assertEquals("The likes should be 3", 3, ((Document) resultDoc.get("metadata")).get("likes"));
 
     }
+
+    @Test
+    public void storePlantCommentReturnsFalseWhenStringIsNotJson() {
+        Boolean worked = plantController.storePlantComment("PlantId: HexadecimalNonsense, Comment: Your method of identifying plants is ridiculous!");
+
+        assertFalse(worked);
+    }
+
+
 
     @AfterClass
     public static void removeTestData() {

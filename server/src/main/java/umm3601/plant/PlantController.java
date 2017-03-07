@@ -147,6 +147,8 @@ public class PlantController {
         } catch (BsonInvalidOperationException e){
             e.printStackTrace();
             return false;
+        } catch (org.bson.json.JsonParseException e){
+            return false;
         }
 
         return true;
