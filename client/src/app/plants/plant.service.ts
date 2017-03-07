@@ -24,6 +24,6 @@ export class PlantService {
 
     //todo can I have the entire comment be in the URL?
     commentPlant(id: string, comment: string): Observable<Boolean> {
-        return this.http.request(this.plantUrl + "/" + id + "/" + comment).map(res => res.json());
+        return this.http.post(this.plantUrl + "/" + "leaveComment", '{"plantId": "' +id+ '" , "comment" : "' +comment+ '"}').map(res => res.json());
     }
 }

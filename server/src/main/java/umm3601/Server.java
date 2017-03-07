@@ -80,14 +80,10 @@ public class Server {
             return plantController.incrementMetadata(id, "dislikes");
         });
 
-
-        ///fake comments
-        get("api/plant/:id/:comment", (req, res) ->{
-           res.type("application/json");
-           String id = req.params("id");
-           String comment = req.params("comment");
-           return plantController.storePlantComment("{\"plantId\" :  \""+ id + "\" ,\"comment\": \"" + comment + "\"}");
-
+        // Posting a comment
+        post("api/plant/leaveComment", (req, res) -> {
+            res.type("application/json");
+            return plantController.storePlantComment(req.body());
         });
 
 
