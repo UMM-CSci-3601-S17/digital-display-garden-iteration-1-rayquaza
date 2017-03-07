@@ -137,7 +137,7 @@ public class PlantController {
             }
 
             if (parsedDocument.containsKey("comment") && parsedDocument.get("comment") instanceof String) {
-                toInsert.put("comment", new ObjectId(parsedDocument.getString("comment")));
+                toInsert.put("comment", parsedDocument.getString("comment"));
             } else {
                 return false;
             }
