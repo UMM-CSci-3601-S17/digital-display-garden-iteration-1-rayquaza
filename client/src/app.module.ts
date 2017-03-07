@@ -10,6 +10,10 @@ import { routing } from './app/app.routes';
 import { FormsModule } from '@angular/forms';
 import {PlantComponent} from './app/plants/plant.component';
 import {PlantService} from './app/plants/plant.service';
+import {AdminComponent} from './app/admin/admin.component';
+import {FileUploadComponent} from './app/admin/file-upload.component';
+
+
 
 import { PipeModule } from './pipe.module';
 
@@ -26,7 +30,9 @@ import { PipeModule } from './pipe.module';
         AppComponent,
         HomeComponent,
         UserListComponent,
-        PlantComponent
+        PlantComponent,
+        AdminComponent,
+        FileUploadComponent
     ],
     providers: [ UserListService, PlantService ],
     bootstrap: [ AppComponent ]
