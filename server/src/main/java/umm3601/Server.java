@@ -81,6 +81,15 @@ public class Server {
         });
 
 
+        ///fake comments
+        get("api/plant/:id/comment", (req, res) ->{
+           res.type("application/json");
+           String id = req.params("id");
+           return plantController.storeComment("{\"PlantId\" :  \""+ id + "\" ,\"Comment\": 27}");
+
+        });
+
+
         // Handle "404" file not found requests:
         notFound((req, res) -> {
             res.type("text");
