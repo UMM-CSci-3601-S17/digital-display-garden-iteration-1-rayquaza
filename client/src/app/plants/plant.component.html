@@ -11,4 +11,13 @@
     <div *ngIf="rated">
         Thanks for your feedback!
     </div>
+    <br>
+    <div *ngIf="!commented">
+        <textarea [(ngModel)]="currentQuery" id="commentBox" rows="5" wrap="on" style="width: 95%;"></textarea>
+
+        <button type="button" (click)="this.comment(currentQuery)">Leave a comment</button>
+    </div>
+    <div *ngIf="commented">
+        Your comment has been submitted.
+    </div>
 </div>

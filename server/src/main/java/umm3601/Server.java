@@ -82,10 +82,11 @@ public class Server {
 
 
         ///fake comments
-        get("api/plant/:id/comment", (req, res) ->{
+        get("api/plant/:id/:comment", (req, res) ->{
            res.type("application/json");
            String id = req.params("id");
-           return plantController.storeComment("{\"PlantId\" :  \""+ id + "\" ,\"Comment\": 27}");
+           String comment = req.params("comment");
+           return plantController.storePlantComment("{\"plantId\" :  \""+ id + "\" ,\"comment\": \"" + comment + "\"}");
 
         });
 
