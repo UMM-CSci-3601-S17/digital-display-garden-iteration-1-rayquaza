@@ -4,6 +4,9 @@ import umm3601.user.UserController;
 import umm3601.plant.PlantController;
 
 import java.io.IOException;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.Collection;
 import java.util.Arrays;
 import javax.servlet.MultipartConfigElement;
@@ -95,15 +98,27 @@ public class Server {
         post("api/forTestingOnly", (req, res) -> {
 
                 try {
-                res.type("appliation/json");
+                    res.type("appliation/json");
 
-                MultipartConfigElement multipartConfigElement = new MultipartConfigElement("/tmp");
-                req.raw().setAttribute("org.eclipse.jetty.multipartConfig", multipartConfigElement);
-                Object[] things  = req.raw().getParts().toArray();
+                    MultipartConfigElement multipartConfigElement = new MultipartConfigElement("/tmp");
+                    req.raw().setAttribute("org.eclipse.jetty.multipartConfig", multipartConfigElement);
+                    // Object[] things  = req.raw().getParts().toArray();
+                    // System.out.println(req.getAttributes());
 
-                System.err.println(Arrays.toString(things));
-                Part part = req.raw().getPart("filename"); // this turns out to be null ??
-                part.write("/tmp/lcs-dont-use-my-name");
+                    // InputStream fromClient = req.raw().getInputStream();
+                    // OutputStream toDisk = new FileOutputStream("/tmp/lcs-dont-use-my-name");
+                    // int buf;
+                    // while ((buf = fromClient.read()) != -1) {
+                    //     toDisk.write(buf);
+                    //     System.out.println("reading!!!");
+                    // }
+                    // toDisk.close();
+                    // fromClient.close();
+
+                    // System.err.println(Arrays.toString(things));
+                    Part part = req.raw().getPart("file[]"); // this turns out to be null ??
+                    // System.out.println(part);
+                    part.write("lcs-dont-use-my-name");
                 } catch (Exception e) {
                     e.printStackTrace();
                     throw e;
