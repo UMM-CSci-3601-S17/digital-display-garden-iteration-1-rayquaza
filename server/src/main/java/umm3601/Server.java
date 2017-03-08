@@ -16,6 +16,9 @@ import static spark.Spark.*;
 
 
 public class Server {
+
+    private static String excelTempDir = "/tmp/digital-display-garden";
+
     public static void main(String[] args) throws IOException {
 
         UserController userController = new UserController();
@@ -94,31 +97,18 @@ public class Server {
         });
 
         // Accept an xls file
-        // post cl
         post("api/forTestingOnly", (req, res) -> {
 
+                res.type("appliation/json");
                 try {
-                    res.type("appliation/json");
 
-                    MultipartConfigElement multipartConfigElement = new MultipartConfigElement("/tmp");
+                    MultipartConfigElement multipartConfigElement = new MultipartConfigElement(excelTempDir);
                     req.raw().setAttribute("org.eclipse.jetty.multipartConfig", multipartConfigElement);
-                    // Object[] things  = req.raw().getParts().toArray();
-                    // System.out.println(req.getAttributes());
 
-                    // InputStream fromClient = req.raw().getInputStream();
-                    // OutputStream toDisk = new FileOutputStream("/tmp/lcs-dont-use-my-name");
-                    // int buf;
-                    // while ((buf = fromClient.read()) != -1) {
-                    //     toDisk.write(buf);
-                    //     System.out.println("reading!!!");
-                    // }
-                    // toDisk.close();
-                    // fromClient.close();
+                    String fileName = Long.valueOf(System.currentTimeMillis()).toString();
+                    Part part = req.raw().getPart("file[]");
+                    part.write(fileName);
 
-                    // System.err.println(Arrays.toString(things));
-                    Part part = req.raw().getPart("file[]"); // this turns out to be null ??
-                    // System.out.println(part);
-                    part.write("lcs-dont-use-my-name");
                 } catch (Exception e) {
                     e.printStackTrace();
                     throw e;
