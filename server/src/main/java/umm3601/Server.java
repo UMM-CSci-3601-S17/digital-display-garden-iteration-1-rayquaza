@@ -4,6 +4,8 @@ import umm3601.user.UserController;
 import umm3601.plant.PlantController;
 
 import java.io.IOException;
+import javax.servlet.MultipartConfigElement;
+import javax.servlet.http.Part;
 
 import static spark.Spark.*;
 
@@ -85,6 +87,25 @@ public class Server {
             res.type("application/json");
             return plantController.storePlantComment(req.body());
         });
+
+        // Accept an xls file
+        // post cl
+        post("api/forTestingOnly", (req, res) -> {
+
+                try {
+                res.type("appliation/json");
+
+                MultipartConfigElement multipartConfigElement = new MultipartConfigElement("/tmp");
+                req.raw().setAttribute("org.eclipse.jetty.multipartConfig", multipartConfigElement);
+                Part part = req.raw().getPart("filename"); // this turns out to be null ??
+                part.write("/tmp/lcs-dont-use-my-name");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    throw e;
+                }
+
+                return true;
+            });
 
 
         // Handle "404" file not found requests:
