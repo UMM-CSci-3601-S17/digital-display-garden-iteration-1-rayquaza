@@ -97,7 +97,7 @@ public class Server {
         });
 
         // Accept an xls file
-        post("api/forTestingOnly", (req, res) -> {
+        post("api/spreadsheet", (req, res) -> {
 
                 res.type("appliation/json");
                 try {

@@ -22,7 +22,7 @@ export class FileUploadComponent {
                 formData.append('file[]', inputEl.files.item(i));
             }
             console.log("I see you!");
-            this.http.post(API_URL + "forTestingOnly", formData).subscribe(x => console.log(x), err => console.log(err));
+            this.http.post(API_URL + "spreadsheet", formData).subscribe(x => console.log(x), err => console.log(err));
         }
     }
 }
