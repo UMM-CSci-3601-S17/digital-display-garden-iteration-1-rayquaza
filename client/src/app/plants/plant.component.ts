@@ -35,8 +35,10 @@ export class PlantComponent implements OnInit {
 
     private comment(comment: string): void {
         if(!this.commented){
-            this.plantService.commentPlant(this.plant["_id"]["$oid"], comment)
-                .subscribe(succeeded => this.commented = succeeded);
+            if(comment != null) {
+                this.plantService.commentPlant(this.plant["_id"]["$oid"], comment)
+                    .subscribe(succeeded => this.commented = succeeded);
+            }
         }
     }
 }
