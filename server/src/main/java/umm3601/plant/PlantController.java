@@ -4,6 +4,7 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import org.bson.BsonInvalidOperationException;
 import org.bson.Document;
 import org.bson.types.ObjectId;
 import org.bson.conversions.Bson;
@@ -19,11 +20,13 @@ import static com.mongodb.client.model.Projections.fields;
 public class PlantController {
 
     private MongoCollection<Document> plantCollection;
+    private MongoCollection<Document> commentCollection;
 
     public PlantController(String databaseName) {
         MongoClient mongoClient = new MongoClient();
         MongoDatabase db = mongoClient.getDatabase(databaseName);
         plantCollection = db.getCollection("plants");
+        commentCollection = db.getCollection("comments");
     }
 
     /**
@@ -105,6 +108,50 @@ public class PlantController {
         return null != plantCollection.findOneAndUpdate(searchDocument, updateDocument);
     }
 
+    /**
+     * Accepts string representation of JSON object containing
+     * at least the following.
+     * <code>
+     *     {
+     *         plantId: String,
+     *         comment: String
+     *     }
+     * </code>
+     * If either of the keys are missing or the types of the values are
+     * wrong, false is returned.
+     * @param json string representation of JSON object
+     * @return true iff the comment was successfully submitted
+     */
+    public boolean storePlantComment(String json) {
 
+
+        try {
+
+            Document toInsert = new Document();
+            Document parsedDocument = Document.parse(json);
+
+            if (parsedDocument.containsKey("plantId") && parsedDocument.get("plantId") instanceof String) {
+                toInsert.put("commentOnObjectOfId", new ObjectId(parsedDocument.getString("plantId")));
+            } else {
+                return false;
+            }
+
+            if (parsedDocument.containsKey("comment") && parsedDocument.get("comment") instanceof String) {
+                toInsert.put("comment", parsedDocument.getString("comment"));
+            } else {
+                return false;
+            }
+
+            commentCollection.insertOne(toInsert);
+
+        } catch (BsonInvalidOperationException e){
+            e.printStackTrace();
+            return false;
+        } catch (org.bson.json.JsonParseException e){
+            return false;
+        }
+
+        return true;
+    }
 
 }

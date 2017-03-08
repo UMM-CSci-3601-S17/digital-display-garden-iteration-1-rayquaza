@@ -20,7 +20,8 @@ public class PlantControllerSpec {
 
     private PlantController plantController;
     private static String databaseName = "data-for-testing-only";
-    private static String collectionName = "plants";
+    private static String plantCollection = "plants";
+    private static String commentCollection = "comments";
 
 
     @Before
@@ -29,10 +30,12 @@ public class PlantControllerSpec {
         // Get a connection to the database
         MongoClient mongoClient = new MongoClient();
         MongoDatabase db = mongoClient.getDatabase(databaseName);
-        MongoCollection<Document> plantDocuments = db.getCollection(collectionName);
+        MongoCollection<Document> plantDocuments = db.getCollection(plantCollection);
+        MongoCollection<Document> commentDocuments = db.getCollection(commentCollection);
 
-        // clear the collection before each test
+        // clear the collections before each test
         plantDocuments.drop();
+        commentDocuments.drop();
 
         // create test data
         List<Document> testTodos = new ArrayList<>();
@@ -63,7 +66,7 @@ public class PlantControllerSpec {
         // All this hassle is to test the db contents to see if they actually changed
         MongoClient mongoClient = new MongoClient();
         MongoDatabase db = mongoClient.getDatabase(databaseName);
-        MongoCollection<Document> plantDocuments = db.getCollection(collectionName);
+        MongoCollection<Document> plantDocuments = db.getCollection(plantCollection);
         Document searchDoc = new Document();
         searchDoc.append("_id", new ObjectId(targetId));
 
@@ -174,6 +177,37 @@ public class PlantControllerSpec {
         assertEquals("The likes should be 3", 3, ((Document) resultDoc.get("metadata")).get("likes"));
 
     }
+
+    @Test
+    public void storePlantCommentReturnsFalseWhenStringIsNotJson() {
+        Boolean worked = plantController.storePlantComment("PlantId: HexadecimalNonsense, Comment: Your method of identifying plants is ridiculous!");
+
+        assertFalse(worked);
+    }
+
+    @Test
+    public void storePlantCommentReturnsTrue(){
+
+        Boolean worked = plantController.storePlantComment("{\"plantId\": \"58b8f2565fbad0fc7a89f85a\", \"comment\": \"Your method of identifying plants is ridiculous!\"}");
+        assertTrue(worked);
+
+        MongoClient mongoClient = new MongoClient();
+        MongoDatabase db = mongoClient.getDatabase(databaseName);
+        MongoCollection<Document> commentDocuments = db.getCollection(commentCollection);
+
+        long contains = commentDocuments.count();
+        assertEquals(1, contains);
+
+        Iterator<Document> iter = commentDocuments.find().iterator();
+
+        Document fromDb = iter.next();
+
+        assertEquals("Your method of identifying plants is ridiculous!", fromDb.getString("comment"));
+        assertEquals(new ObjectId("58b8f2565fbad0fc7a89f85a"), fromDb.get("commentOnObjectOfId"));
+
+
+    }
+
 
     @AfterClass
     public static void removeTestData() {
