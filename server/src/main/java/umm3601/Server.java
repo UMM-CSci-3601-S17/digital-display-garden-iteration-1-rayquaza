@@ -80,6 +80,12 @@ public class Server {
             return plantController.incrementMetadata(id, "dislikes");
         });
 
+        // Posting a comment
+        post("api/plant/leaveComment", (req, res) -> {
+            res.type("application/json");
+            return plantController.storePlantComment(req.body());
+        });
+
 
         // Handle "404" file not found requests:
         notFound((req, res) -> {
