@@ -4,11 +4,21 @@ import umm3601.user.UserController;
 import umm3601.plant.PlantController;
 
 import java.io.IOException;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.Collection;
+import java.util.Arrays;
+import javax.servlet.MultipartConfigElement;
+import javax.servlet.http.Part;
 
 import static spark.Spark.*;
 
 
 public class Server {
+
+    private static String excelTempDir = "/tmp/digital-display-garden";
+
     public static void main(String[] args) throws IOException {
 
         UserController userController = new UserController();
@@ -85,6 +95,27 @@ public class Server {
             res.type("application/json");
             return plantController.storePlantComment(req.body());
         });
+
+        // Accept an xls file
+        post("api/spreadsheet", (req, res) -> {
+
+                res.type("appliation/json");
+                try {
+
+                    MultipartConfigElement multipartConfigElement = new MultipartConfigElement(excelTempDir);
+                    req.raw().setAttribute("org.eclipse.jetty.multipartConfig", multipartConfigElement);
+
+                    String fileName = Long.valueOf(System.currentTimeMillis()).toString();
+                    Part part = req.raw().getPart("file[]");
+                    part.write(fileName);
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    throw e;
+                }
+
+                return true;
+            });
 
 
         // Handle "404" file not found requests:
