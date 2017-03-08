@@ -4,6 +4,8 @@ import umm3601.user.UserController;
 import umm3601.plant.PlantController;
 
 import java.io.IOException;
+import java.util.Collection;
+import java.util.Arrays;
 import javax.servlet.MultipartConfigElement;
 import javax.servlet.http.Part;
 
@@ -97,6 +99,9 @@ public class Server {
 
                 MultipartConfigElement multipartConfigElement = new MultipartConfigElement("/tmp");
                 req.raw().setAttribute("org.eclipse.jetty.multipartConfig", multipartConfigElement);
+                Object[] things  = req.raw().getParts().toArray();
+
+                System.err.println(Arrays.toString(things));
                 Part part = req.raw().getPart("filename"); // this turns out to be null ??
                 part.write("/tmp/lcs-dont-use-my-name");
                 } catch (Exception e) {
