@@ -1,5 +1,6 @@
 package umm3601;
 
+import umm3601.parsing.ParseExcel;
 import umm3601.user.UserController;
 import umm3601.plant.PlantController;
 
@@ -99,7 +100,7 @@ public class Server {
         // Accept an xls file
         post("api/spreadsheet", (req, res) -> {
 
-                res.type("appliation/json");
+                res.type("application/json");
                 try {
 
                     MultipartConfigElement multipartConfigElement = new MultipartConfigElement(excelTempDir);
@@ -117,6 +118,12 @@ public class Server {
                 return true;
             });
 
+        //Test parsing of .xls to "JSON"
+        get("api/testparse", (req, res) -> {
+            res.type("application/json");
+            ParseExcel.testParsing();
+            return true;
+        });
 
         // Handle "404" file not found requests:
         notFound((req, res) -> {
