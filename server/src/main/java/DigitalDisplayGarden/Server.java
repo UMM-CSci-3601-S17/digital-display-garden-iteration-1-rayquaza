@@ -1,8 +1,11 @@
 package DigitalDisplayGarden;
 
 import DigitalDisplayGarden.plant.PlantController;
+import spark.utils.IOUtils;
 
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 
 import static spark.Spark.*;
 
@@ -40,8 +43,12 @@ public class Server {
 
         // Redirects for the "home" page
         redirect.get("", "/");
-        redirect.get("/", "http://localhost:9000");
+//        redirect.get("/", "http://localhost:9000");
 
+        get("/", (req, res) -> {
+            InputStream stream = new FileInputStream("/home/schr1230/iteration-1-demo/server/lib/client/public/index.html");
+            return IOUtils.toString(stream);
+        });
         // Get specific plant
         get("api/plant/:id", (req, res) -> {
             res.type("application/json");
@@ -71,6 +78,16 @@ public class Server {
             return plantController.storePlantComment(req.body());
         });
 
+        get("/*", ((request, response) -> {
+            try {
+                InputStream stream = new FileInputStream("/home/schr1230/iteration-1-demo/server/lib/client/public/index.html");
+//            return IOUtils.toString(Spark.class.getResourceAsStream("index.html"));
+                return IOUtils.toString(stream);
+            } catch (Exception e) {
+                e.printStackTrace();
+                throw e;
+            }
+        }));
 
         // Handle "404" file not found requests:
         notFound((req, res) -> {
