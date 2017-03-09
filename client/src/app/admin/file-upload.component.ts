@@ -5,7 +5,7 @@ import { Http } from '@angular/http';
 
 @Component({
     selector: 'file-upload',
-    template: '<input type="file" [multiple]="multiple" #fileInput>'
+    template: '<input type="file" [multiple]="multiple" #fileInput class="center-block">'
 })
 export class FileUploadComponent {
     @Input() multiple: boolean = false;
