@@ -110,6 +110,7 @@ public class Server {
                     Part part = req.raw().getPart("file[]");
                     part.write(fileName);
 
+                    ParseExcel.testParsing(excelTempDir + "/" + fileName);
                 } catch (Exception e) {
                     e.printStackTrace();
                     throw e;
@@ -117,13 +118,6 @@ public class Server {
 
                 return true;
             });
-
-        //Test parsing of .xls to "JSON"
-        get("api/testparse", (req, res) -> {
-            res.type("application/json");
-            ParseExcel.testParsing();
-            return true;
-        });
 
         // Handle "404" file not found requests:
         notFound((req, res) -> {
