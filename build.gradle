@@ -3,6 +3,8 @@ evaluationDependsOn ":server"
 
 // Assumes our test database is named "test"
 task clearMongoDB(type: Exec) {
+     group = 'Database'
+     description = 'Drops the local MongoDB test database'
      executable "mongo"
      args = ["test", "--eval", "printjson(db.dropDatabase())"]
 }
