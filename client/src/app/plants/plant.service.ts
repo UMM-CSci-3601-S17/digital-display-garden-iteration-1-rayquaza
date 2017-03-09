@@ -23,6 +23,10 @@ export class PlantService {
     }
 
     commentPlant(id: string, comment: string): Observable<Boolean> {
-        return this.http.post(this.plantUrl + "/" + "leaveComment", '{"plantId": "' +id+ '" , "comment" : "' +comment+ '"}').map(res => res.json());
+        let returnObject = {
+            plantId: id,
+            comment: comment
+        };
+        return this.http.post(this.plantUrl + "/" + "leaveComment", JSON.stringify(returnObject)).map(res => res.json());
     }
 }
