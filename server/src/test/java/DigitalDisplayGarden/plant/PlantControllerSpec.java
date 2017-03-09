@@ -1,4 +1,4 @@
-package umm3601.plant;
+package DigitalDisplayGarden.plant;
 
 
 import com.mongodb.MongoClient;

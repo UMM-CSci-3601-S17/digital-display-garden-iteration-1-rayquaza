@@ -1,6 +1,6 @@
-package umm3601;
+package DigitalDisplayGarden;
 
-import umm3601.plant.PlantController;
+import DigitalDisplayGarden.plant.PlantController;
 
 import java.io.IOException;
 
