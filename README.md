@@ -1,5 +1,5 @@
 ## UMM CSci Production Template
-[![Build Status](https://travis-ci.org/UMM-CSci-3601-S17/digital-display-garden-iteration-1-rayquaza.svg?branch=master)](https://travis-ci.org/UMM-CSci-3601-S17/digital-display-garden-iteration-1-rayquaza)
+[![Build Status](https://travis-ci.org/UMM-CSci-3601-S17/digital-display-garden-iteration-2-coolpeeps.svg?branch=master)](https://travis-ci.org/UMM-CSci-3601-S17/digital-display-garden-iteration-2-coolpeeps/branches)
 
 #### Based on Lab #4
 
